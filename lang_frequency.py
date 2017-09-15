@@ -3,7 +3,7 @@ import sys
 
 
 def load_data(filepath):
-    words_list = open(filepath, encoding='utf-8').read().strip().split(' ')
+    words_list = open(filepath, encoding='utf-8').read().strip().split()
     return words_list
 
 
