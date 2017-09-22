@@ -9,8 +9,8 @@ def load_data(filepath):
 
 
 def get_words_as_list(raw_text):
-    words_list = raw_text.strip().split()
-    return words_list
+    words_as_list = raw_text.strip().split()
+    return words_as_list
 
 
 def get_n_most_frequent_words(text_data, count):
