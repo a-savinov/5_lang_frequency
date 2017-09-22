@@ -21,6 +21,7 @@ if __name__ == '__main__':
     if len(sys.argv) > 1:
         filename = sys.argv[1]
         raw_data = load_data(filename)
-        print(get_n_most_frequent_words(get_words_as_list(raw_data), 10))
+        words_count = 10
+        print(get_n_most_frequent_words(get_words_as_list(raw_data), words_count))
     else:
         print('No data for analyse')
