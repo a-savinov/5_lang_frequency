@@ -9,7 +9,7 @@ def load_data(filepath):
 
 
 def get_words_as_list(raw_text):
-    words_as_list = raw_text.strip().split()
+    words_as_list = raw_text.lower().strip().split()
     return words_as_list
 
 
