@@ -2,7 +2,6 @@ import collections
 import sys
 
 
-
 def load_data(filepath):
     with open(filepath, "r", encoding='utf-8') as input_file:
         raw_text = input_file.read()
