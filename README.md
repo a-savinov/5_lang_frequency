@@ -8,13 +8,18 @@ Example of script launch on Linux, Python 3.5:
 
 ```#!bash
 
-$ python lang_frequency.py <text_file.txt>
+$ python lang_frequency.py -h
+usage: lang_frequency.py [-h] -f FILE
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -f FILE, --file FILE  File for analyse
 
 ```
 Output example:
 
 ```#!bash
-$ python lang_frequency.py lorem.txt
+$ python lang_frequency.py -f lorem.txt
 Most used words:
 Word: suscipit         Frequency: 14
 Word: quaerat          Frequency: 13
